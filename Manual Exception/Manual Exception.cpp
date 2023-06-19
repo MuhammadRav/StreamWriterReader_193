@@ -4,7 +4,8 @@ using namespace std;
 int main() {
 	try {
 		cout << "Selamat Belajar di Prodi TI UMY" << endl;
-		throw 0.5;	//melemparkan sebuah integer maka
+		/*throw 0.5;*/	//melemparkan sebuah integer ke bagian 3 (line 17) karena throw tidak bertipe bilangan bulat/int
+		/*throw 1;*/	//melemparkan sebuah integer ke bagian 2 (line 13)
 		cout << "Pernyataan tidak akan dieksekusi" << endl;
 	}
 	catch (int a) {
